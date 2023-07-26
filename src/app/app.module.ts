@@ -8,6 +8,7 @@ import { HomeHeaderComponent } from './home/home-header/home-header.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeMainComponent } from './home/home-main/home-main.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
+import { CvContentComponent } from './cv-content/cv-content.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeFooterComponent } from './home/home-footer/home-footer.component';
     NavBarComponent,
     HomeMainComponent,
     HomeFooterComponent,
+    CvContentComponent,
   ],
   imports: [
     BrowserModule,
