@@ -66,8 +66,7 @@
 
 
 # MyCv
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+In progress
 
 ## Development server
 
