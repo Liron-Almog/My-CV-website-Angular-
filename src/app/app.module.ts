@@ -9,6 +9,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeMainComponent } from './home/home-main/home-main.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { CvContentComponent } from './cv-content/cv-content.component';
+import { ContactComponent } from './contact/contact.component';
+import { ContactMainComponent } from './contact/contact-main/contact-main.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { CvContentComponent } from './cv-content/cv-content.component';
     HomeMainComponent,
     HomeFooterComponent,
     CvContentComponent,
+    ContactComponent,
+    ContactMainComponent,
   ],
   imports: [
     BrowserModule,

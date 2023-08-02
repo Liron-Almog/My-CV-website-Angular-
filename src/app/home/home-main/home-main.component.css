@@ -3,9 +3,8 @@
     border-radius: 50%;
 
 }
-
-
 .h1-span{
+    white-space: nowrap;
     color: #FCA71F;
 }
 
