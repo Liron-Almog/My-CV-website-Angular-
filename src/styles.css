@@ -5,6 +5,7 @@
 
     /*COLOR*/
     --BGCOLOR:#F8F9FA;
+ 
 }
 body{
     background-color: --BGCOLOR;

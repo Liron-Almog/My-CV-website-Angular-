@@ -5,6 +5,31 @@ ul {
     margin-right: 20px;
 }
 
-a {
-  
+ul{
+    background-color: hwb(203 62% 35% / 0.92);;
+    padding: 35px 20px 35px 20px;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+
+.first-word-in-link{
+    font-weight: bolder;
+    margin-left: 10px;
+}
+ul li:nth-child(2), ul li:nth-child(3){
+    
+    border-top:solid gray 1px;
+}
+ul li{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover,a:focus{
+   
+    border-bottom: 1px red solid;
+    
 }
