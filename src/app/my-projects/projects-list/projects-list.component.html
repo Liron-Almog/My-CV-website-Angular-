@@ -1,16 +1,17 @@
 
 
 <div class="row mt-3 justify-content-center">
-    <div class="card col-6 m-2" style="width: 18rem;" *ngFor="let project of projects">
-        <video controls class="mt-2"  height="180px">
+    
+    <div class="card m-2 col-2" style="width: 18rem;" *ngFor="let project of projects">
+        <video controls class="mt-2" height="180px">
             <source src="../../../assets/videos/{{project.videoPath}}"  type="video/mp4">
             Your browser does not support the video tag.
-          </video>
+        </video>
         <div class="card-body">
-        <h5 class="card-title">{{project.nameProject}}</h5>
-        <p class="card-text">{{project.description}}</p>
-        <a href="#" class="btn btn-primary">Source Code</a>
+            <h5 class="card-title">{{project.nameProject}}</h5>
+            <p class="card-text">{{project.description}}</p>
+            <a href="#" class="btn btn-primary">Source Code</a>
         </div>
     </div>
-</div>    
+</div>
 

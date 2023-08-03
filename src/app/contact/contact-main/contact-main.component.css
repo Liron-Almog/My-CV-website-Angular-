@@ -5,9 +5,9 @@
 
 
 address{
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 0.235);
     margin-top: 50px;
     width: 350px;
-    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 0.235);
 }
 
 ul li {
