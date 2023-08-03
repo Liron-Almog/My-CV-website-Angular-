@@ -11,6 +11,7 @@ import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { CvContentComponent } from './cv-content/cv-content.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContactMainComponent } from './contact/contact-main/contact-main.component';
+import { MyProjectsComponent } from './my-projects/my-projects.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ContactMainComponent } from './contact/contact-main/contact-main.compon
     CvContentComponent,
     ContactComponent,
     ContactMainComponent,
+    MyProjectsComponent,
   ],
   imports: [
     BrowserModule,

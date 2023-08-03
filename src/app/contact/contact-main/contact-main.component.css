@@ -1,14 +1,26 @@
-ul {
-    list-style: none;
-}
-.icon {
-    margin-right: 20px;
+.my-container {
+   display: flex;
+   justify-content: center;
 }
 
+
+address{
+    margin-top: 50px;
+    width: 350px;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 0.235);
+}
+
+ul li {
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 ul{
-    background-color: hwb(203 62% 35% / 0.92);;
-    padding: 35px 20px 35px 20px;
-    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+    
+    list-style: none;
+    padding:18px 15px 15px 15px ;
+    margin: 0;
+
 }
 
 .first-word-in-link{
@@ -19,17 +31,11 @@ ul li:nth-child(2), ul li:nth-child(3){
     
     border-top:solid gray 1px;
 }
-ul li{
-    padding: 15px;
-}
+
 a{
     text-decoration: none;
     color: black;
-    
 }
-
-a:hover,a:focus{
-   
-    border-bottom: 1px red solid;
-    
+p {
+    font-weight: bold;
 }
