@@ -12,6 +12,8 @@ import { CvContentComponent } from './cv-content/cv-content.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContactMainComponent } from './contact/contact-main/contact-main.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
+import { ProjectsListComponent } from './my-projects/projects-list/projects-list.component';
+import { ProjectItemComponent } from './my-projects/project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { MyProjectsComponent } from './my-projects/my-projects.component';
     ContactComponent,
     ContactMainComponent,
     MyProjectsComponent,
+    ProjectsListComponent,
+    ProjectItemComponent,
   ],
   imports: [
     BrowserModule,
