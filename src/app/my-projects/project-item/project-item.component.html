@@ -1,1 +1,13 @@
-<p>project-item works!</p>
+
+<div class="card" style="width: 18rem;">
+    <video controls class="mt-2"  height="200px">
+        <source src="../../../assets/videos/{{project.videoPath}}"  type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="card-body">
+        <h5 class="card-title">{{project.nameProject}}</h5>
+        <p class="card-text">{{project.description}}</p>
+        <a href="#" class="btn btn-primary">Source Code</a>
+        <a href="#" class="btn btn-primary">Read Code</a>
+    </div>
+</div>

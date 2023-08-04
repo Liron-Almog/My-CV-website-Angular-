@@ -15,7 +15,8 @@ export class ProjectsListComponent implements OnInit{
                         new Project('Coin-Hunter','Test decription','Coin Hunter.mp4'),
                         new Project('The-Prime-Numbers-Maker','Test decription',''),
                         new Project('Sorting-Competiton','Test decription',''),
-                        new Project('Trivia Game','Test decription','Trivia_Game.mp4')];
+                        new Project('Trivia Game','Test decription','Trivia_Game.mp4')
+                      ];
 
                         
 
