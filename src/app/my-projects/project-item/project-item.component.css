@@ -1,0 +1,15 @@
+.card {
+    padding: 10px;
+}
+
+
+.my-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+.my-btn > a{
+    width: 60%;
+
+}
