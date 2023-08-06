@@ -14,6 +14,8 @@ import { ContactMainComponent } from './contact/contact-main/contact-main.compon
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { ProjectsListComponent } from './my-projects/projects-list/projects-list.component';
 import { ProjectItemComponent } from './my-projects/project-item/project-item.component';
+import { ProjectsExplanationListComponent } from './my-projects/projects-explanation-list/projects-explanation-list.component';
+import { ExplanationItemComponent } from './my-projects/explanation-item/explanation-item.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { ProjectItemComponent } from './my-projects/project-item/project-item.co
     MyProjectsComponent,
     ProjectsListComponent,
     ProjectItemComponent,
+    ProjectsExplanationListComponent,
+    ExplanationItemComponent,
   ],
   imports: [
     BrowserModule,
