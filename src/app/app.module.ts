@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule} from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -16,6 +17,12 @@ import { ProjectsListComponent } from './my-projects/projects-list/projects-list
 import { ProjectItemComponent } from './my-projects/project-item/project-item.component';
 import { ProjectsExplanationListComponent } from './my-projects/projects-explanation-list/projects-explanation-list.component';
 import { ExplanationItemComponent } from './my-projects/explanation-item/explanation-item.component';
+
+
+const appRoutes: Routes = [
+  {path: '', component:HomeComponent},
+  {path: 'contact', component:ContactComponent},
+  {path: 'projects', component:MyProjectsComponent}]
 
 @NgModule({
   declarations: [
@@ -36,7 +43,8 @@ import { ExplanationItemComponent } from './my-projects/explanation-item/explana
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
