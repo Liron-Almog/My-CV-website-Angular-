@@ -8,5 +8,6 @@ import {ProjectExplanation} from '../projectExplanation.model'
 export class ExplanationItemComponent {
 
   @Input() projectExp: ProjectExplanation ;
+
 }
 

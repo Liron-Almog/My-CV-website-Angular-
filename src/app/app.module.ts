@@ -17,12 +17,9 @@ import { ProjectsListComponent } from './my-projects/projects-list/projects-list
 import { ProjectItemComponent } from './my-projects/project-item/project-item.component';
 import { ProjectsExplanationListComponent } from './my-projects/projects-explanation-list/projects-explanation-list.component';
 import { ExplanationItemComponent } from './my-projects/explanation-item/explanation-item.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PageNotExistComponent } from './page-not-exist/page-not-exist.component';
 
-
-const appRoutes: Routes = [
-  {path: '', component:HomeComponent},
-  {path: 'contact', component:ContactComponent},
-  {path: 'projects', component:MyProjectsComponent}]
 
 @NgModule({
   declarations: [
@@ -40,11 +37,12 @@ const appRoutes: Routes = [
     ProjectItemComponent,
     ProjectsExplanationListComponent,
     ExplanationItemComponent,
+    PageNotExistComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
