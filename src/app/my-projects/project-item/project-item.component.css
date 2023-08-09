@@ -7,9 +7,31 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 2px;
+   
+    color:#EADBC8;
 }
 .my-btn > a{
-    width: 60%;
+    width: 65%;
+}
+.btn{
+    background-color: #EADBC8;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #27374D;
+}
+.card{
+    padding-bottom: 1;
+    background-color:#27374D;
+    color:#DDE6ED;
+}
+
+video{
+    padding: 0;
+    margin: 0;
+}
+
+.card-b{
+
+    padding: 20px;
 
 }

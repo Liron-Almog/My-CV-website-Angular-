@@ -1,0 +1,7 @@
+h2{
+    color: #27374D;
+}
+section{
+    padding: 14px;
+    border-top:solid 0.02px var(--BOLDCOLOR);
+}
