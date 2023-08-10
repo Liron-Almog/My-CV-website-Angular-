@@ -1,12 +1,12 @@
 
-<div class="card" style="width:230px; min-height:435px ;">
+<div class="card">
     <h5 class="card-title">{{project.nameProject}}</h5>
-    <video *ngIf="project.videoPath; else addImage" controls height="200px">
+    <video *ngIf="project.videoPath; else addImage" controls height="140px">
         <source src="../../../assets/videos/{{project.videoPath}}"  type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <ng-template #addImage>
-        <img src="../../../assets/icons/noVideo.png" class="p-4" alt="no video img" loading="lazy" width="200px" height="200px">
+        <img src="../../../assets/icons/noVideo.png"  alt="no video img" loading="lazy" width="130px" height="130px">
     </ng-template>
 
     <div class="card-b">
@@ -15,6 +15,6 @@
     </div>
     <div class="my-btn">
         <a href="{{project.sourceCode}}" class="btn">Source Code</a>
-        <a routerLink="/projects" fragment="{{project.nameProject}}" class="btn">Read More</a>
+        <button routerLink="/projects" fragment="{{project.nameProject}}" class="btn">Read More</button>
     </div>
 </div>

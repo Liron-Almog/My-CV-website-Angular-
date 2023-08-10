@@ -7,6 +7,10 @@
     --BGCOLOR:#F8F9FA;
     --BOLDCOLOR:#FCA71F;
     
+        /*CARD*/
+        --CARDBGCOLOR:#27374e;
+        --CARDTEXTCOLOR:#DDE6ED;
+        --CARDBUTTONCOLOR:#EADBC8;
  
 }
 body{

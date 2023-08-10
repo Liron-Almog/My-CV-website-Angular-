@@ -4,9 +4,10 @@
 }
 
 
+
 address{
-   
-    margin-top: 30px;
+    background-color: #27374e;
+    margin: 0px;
     width: 294px;
     height: 500px;
     background-image: url(../../../assets/images/iphone.png);
@@ -15,43 +16,46 @@ address{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 50px;
     align-items: center;
 }
 
 ul li {
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    font-weight: 500;
+    color: var(--CARDBUTTONCOLOR);
+    color: var(--CARDTEXTCOLOR);
 }
 ul{
 
     list-style: none;
     width: 90%;
-    
- 
-    
-
 }
-
+/* --CARDBGCOLOR:#27374e;
+--CARDTEXTCOLOR:#DDE6ED;
+--CARDBUTTONCOLOR:#EADBC8; */
 
 .first-word-in-link{
+    color: var(--CARDBUTTONCOLOR);
+  
     font-weight: bolder;
     margin-left: 10px;
 }
 ul li:nth-child(2), ul li:nth-child(3){
     width: 80%;
-    border-top:solid gray 1px;
+    border-top:solid #EADBC8 1px;
 }
 
 a{
     text-decoration: none;
-    color: black;
 }
 p {
+    color: var(--CARDBUTTONCOLOR);
     font-weight: bold;
 }
 h2{
-    color: var(--BOLDCOLOR);
-    text-shadow: 2px 2px 5px #0000002e;
+    color: var(--CARDTEXTCOLOR);
+    text-shadow: 2px 2px 5px #000000d9;
     margin-top: 10px;
 }

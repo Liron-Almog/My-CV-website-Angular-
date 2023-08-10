@@ -7,26 +7,27 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-   
-    color:#EADBC8;
+    color:var(--CARDTEXTCOLOR);
 }
-.my-btn > a{
+.my-btn > .btn{
     width: 65%;
 }
 .btn{
-    background-color: #EADBC8;
+    background-color: var(--CARDBUTTONCOLOR);
     font-weight: bold;
     margin-bottom: 2px;
-    color: #27374D;
+    color: #27374e;
 }
 .card{
     padding-bottom: 1;
-    background-color:#27374D;
+    background-color:var(--CARDBGCOLOR);
     color:#DDE6ED;
+    width:230px; 
+    min-height:385px;
 }
 
 video{
-    padding: 0;
+    padding: 5px;
     margin: 0;
 }
 
@@ -34,4 +35,9 @@ video{
 
     padding: 20px;
 
+}
+img{
+    padding: 5px;
+    position:relative;
+    left: 40px;
 }
