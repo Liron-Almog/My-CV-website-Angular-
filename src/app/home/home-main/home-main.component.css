@@ -3,6 +3,9 @@
     border-radius: 50%;
 
 }
+h1{
+    padding: 0;
+}
 .h1-span{
     white-space: nowrap;
     color: #FCA71F;
@@ -22,5 +25,7 @@ a{
 @media only screen and (max-width: 576px) {
     .icons-bottom-hr{
         display: block;
+        margin:5px;
+        margin-bottom: 12px;
     }
   }
