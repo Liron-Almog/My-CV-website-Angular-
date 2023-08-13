@@ -1,8 +1,8 @@
 
 <div class="card">
     <h5 class="card-title">{{project.nameProject}}</h5>
-    <video *ngIf="project.videoPath; else addImage" controls height="140px">
-        <source src="../../../assets/videos/{{project.videoPath}}"  type="video/mp4">
+    <video preload="metadata" *ngIf="project.videoPath; else addImage" controls height="140px">
+        <source src="../../../assets/videos/{{project.videoPath}}#t=0.5"  type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <ng-template #addImage>
