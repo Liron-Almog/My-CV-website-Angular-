@@ -15,8 +15,6 @@ export class MyProjectsComponent implements OnInit {
     this.activateR.fragment.subscribe((fragment:string) => {
       if (fragment) 
         document.getElementById(fragment).scrollIntoView();
-      
-
     });
   }
 }

@@ -3,3 +3,11 @@ h1{
   color: black;
   text-shadow: 2px 2px 5px rgba(28, 66, 163, 0.557);
     }
+
+  .arrow-up{
+    position: fixed;
+    font-size: 1.4rem;
+    padding-top: 0.2px;
+    background-color: rgba(128, 128, 128, 0.167);
+    top: 90%;
+  }
