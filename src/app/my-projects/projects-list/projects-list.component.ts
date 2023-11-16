@@ -8,8 +8,9 @@ import {Project} from '../project.model';
 export class ProjectsListComponent implements OnInit{
 
   projects:Project[] = [ new Project('Coin Hunter','C++','Coin Hunter.mp4','https://github.com/Liron-Almog/Coin-Hunter'),
+  new Project('My Cookbook','Angular & NodeJS','MyCookBook.mp4','https://github.com/Liron-Almog/MyCookBook'),
                         new Project('Ecommerce','HTML, CSS, JS & React','Ecommerce.mp4','https://github.com/Liron-Almog/Ecommerce-React'),
-                        new Project('My Cookbook','Angular & NodeJS','MyCookBook.mp4','https://github.com/Liron-Almog/MyCookBook'),
+                        
                         new Project('The Maze','C++','The_Maze.mp4','https://github.com/Liron-Almog/The-Maze'),
                         new Project('Memory Game','HTML, CSS & JS','Memory_Game.mp4','https://github.com/Liron-Almog/Memory-Game'),
                         new Project('Trivia Game','HTML, CSS, Java & Spring','Trivia_Game.mp4','https://github.com/Liron-Almog/Trivia-Game-MVC-Thymeleaf'),
