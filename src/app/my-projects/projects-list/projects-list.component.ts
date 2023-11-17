@@ -9,11 +9,11 @@ export class ProjectsListComponent implements OnInit{
 
   projects:Project[] = [ new Project('Coin Hunter','C++','Coin Hunter.mp4','https://github.com/Liron-Almog/Coin-Hunter'),
   new Project('My Cookbook','Angular & NodeJS','MyCookBook.mp4','https://github.com/Liron-Almog/MyCookBook'),
-                        new Project('Ecommerce','HTML, CSS, JS & React','Ecommerce.mp4','https://github.com/Liron-Almog/Ecommerce-React'),
+                        new Project('Ecommerce','HTML5, CSS, JS & React','Ecommerce.mp4','https://github.com/Liron-Almog/Ecommerce-React'),
                         
                         new Project('The Maze','C++','The_Maze.mp4','https://github.com/Liron-Almog/The-Maze'),
-                        new Project('Memory Game','HTML, CSS & JS','Memory_Game.mp4','https://github.com/Liron-Almog/Memory-Game'),
-                        new Project('Trivia Game','HTML, CSS, Java & Spring','Trivia_Game.mp4','https://github.com/Liron-Almog/Trivia-Game-MVC-Thymeleaf'),
+                        new Project('Memory Game','HTML5, CSS & JS','Memory_Game.mp4','https://github.com/Liron-Almog/Memory-Game'),
+                        new Project('Trivia Game','HTML5, CSS, Java & Spring','Trivia_Game.mp4','https://github.com/Liron-Almog/Trivia-Game-MVC-Thymeleaf'),
                         new Project('Cheaper App','React Native','CheaperApp.mp4','https://github.com/Liron-Almog/Cheaper-App'),
                         new Project('Circle the Cat','C++','Circle_The_Cat.mp4','https://github.com/Liron-Almog/Circle-The-Cat'),
                         new Project('Proxy Tester Console','Java','','https://github.com/Liron-Almog/Proxy-Tester-Console'),
